@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;    
+}
+body{
+    background-color: #5f5f5f8e;
+}
+.head{
+    text-align: center;
+    padding: 10px;
+    color: white;    
+}
+.container > h3{
+    margin: 20px;
+    text-decoration: underline;
+    color: white;
+}
+.container > ol{
+    margin: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 18px;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 18px 25px;    
+}
+.container > ol li{
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 18px 25px;          
+}
+
+.container > ol li:nth-child(1){
+    background-color: rgb(0, 27, 75);
+    color: #fff;
+}
+.container > ol li:nth-child(2){
+    background-color: rgb(0, 27, 125);
+    color: #fff;
+}
+.container > ol li:nth-child(3){
+    background-color: rgb(0, 27, 175);
+    color: #fff;
+}
+.container > ol li:nth-child(4){
+    background-color: rgb(0, 27, 225);
+    color: #fff;
+}
+.container > ol li:nth-child(5){
+    background-color: rgb(0, 27, 255);
+    color: #fff;
+}
