@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+    <title>Word Counter Flask</title>
+{% endblock %}
+
+{% block body %}
+    <header class="head">
+        <h1>Flask Word Counter</h1>
+        <h3>Made with ♥ By Bhargav Pandit</h3>
+    </header>
+    <div class="form-container">
+        <form action="/count" method="post">
+            <label for="textarea">Paste Text Here...</label>
+            <br>
+            <textarea name="text" id="text" type="text" placeholder="lorem ipsum dolor sit amet...." required></textarea>
+            <br>
+            <button type="submit">Compute!</button>
+            {% if words %}
+                <p>Word Count - {{ words }}</p>
+                <p>Paragraph Count - {{ paras }}</p>
+                <p>Character Count - {{ chars }}</p>
+            {%endif%}
+        </form>
+    </div>
+
+{% endblock %}

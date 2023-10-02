@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Taviraj', serif;
+}
+body{
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.head{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+.head > h3{
+    font-size: small;
+}
+.form-container{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.form-container >form label{
+    font-size: larger;
+    padding-right: 490px;
+}
+.form-container > form textarea{
+    font-size: 20px;
+    width: 625px;
+    height: 125px;
+    padding: 5px;    
+}
+.form-container > form textarea:focus{
+    outline: none;    
+}
+
+.form-container > form button{             
+    
+    background-image: linear-gradient(to right, #7b4397 0%, #dc2430  51%, #7b4397  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;    
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;   
+    border-radius: 10px;
+    border: none;
+       
+}
+.form-container > form button:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+ 
