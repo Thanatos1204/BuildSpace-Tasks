@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="{{ url_for('static', filename = 'style.css') }}">
+    <title>Landing Page</title>
+{% endblock %}
+
+{% block body %}
+    <header class="head">
+        <img class="logo" src="../static/logo.png" alt="logo">
+        <h2>Welcome to Jujutsu Kaisen WikiFandom</h2>
+        <a href="/account">
+            <img class="account" src="../static/account.png" alt="account">
+            <caption class="cap">Account</caption>
+        </a>
+    </header>
+    <div class="container">
+        <h3>Navigate the Website for Blogs, Your Account and Contact Us!</h3>
+        <div class="section-buttons">
+            <a href="/blog"><button class="blogs" type="submit">Blogs</button></a>
+            <a href="/contact"><button class="contact" type="submit">Contact Us</button></a>
+        </div>
+    </div>
+{% endblock %}

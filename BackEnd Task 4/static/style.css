@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;      
+}
+
+body{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    color: white;     
+}
+.head > h2{
+    font-size: 50px;
+    align-self: center;
+    padding-right: 210px;
+}
+.head > .logo{
+    width: 320px;
+    height: 180px;
+}
+
+.head > a {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    text-decoration: none;
+    color: white; 
+}
+.head > a > .account{    
+    width: 50px;
+    height: 50px;
+}
+
+.container{
+    
+    margin: 10px;
+}
+
+.container > h3{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.blogs{             
+   
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    margin: 10px;
+    padding: 10vw 43vw;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;   
+    border-radius: 10px;    
+}
+
+      
+.blogs:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .contact{
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+    margin: 10px;
+    padding: 10vw 40vw;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;   
+    border-radius: 10px;    
+  }
+
+  .contact:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 

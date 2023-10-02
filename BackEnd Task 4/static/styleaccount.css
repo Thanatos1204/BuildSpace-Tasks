@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+    text-align: center;
+}
+
+.yuji{
+    width: 344px;
+    height: 444px;
+}
+.gojo{
+    width: 320px;
+    height: 444px;
+}
+.yuta{
+    width: 300px;
+    height: 444px;
+}

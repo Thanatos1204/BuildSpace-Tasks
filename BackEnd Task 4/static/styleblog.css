@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+}
+
+.header1{        
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+.header1 > h1{
+    flex: 1 0 50%;
+    padding:20px 0 5px 0;
+}
+
+.header1 > h2{
+    flex: 0 1 100%;
+    padding-bottom: 10px;
+}
+
+.content{
+    margin: 10px;    
+}
+
+.content > span{
+    font-size: larger;
+    font-weight: bold;
+    
+}
+
+.content > p{
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px;
+}
