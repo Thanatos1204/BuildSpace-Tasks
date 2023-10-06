@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+    <title>Search Results</title>
+{% endblock %}
+
+{% block body %}
+<div class="container"> 
+    <h1>Search Engine Simulator Results</h1>
+    <p class="query">Query: {{ query }}</p>
+    <p class="response">Response: {{ response }}</p>
+</div>
+{% endblock %}
